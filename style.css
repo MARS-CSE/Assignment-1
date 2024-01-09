@@ -1,0 +1,206 @@
+body {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.text {
+    color: #ff0000;
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    border: solid;
+}
+
+#banner img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+#banner .banner-content {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#category {
+    text-align: center;
+    width: 100%;
+}
+
+#category img {
+    width: 40%;
+}
+
+#party {
+    display: flex;
+    border: solid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    color: #ffffff;
+}
+
+#party::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-image: url('./Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#party h1 {
+    font-size: 3em;
+}
+
+#party button {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#party p {
+    font-size: 1.1em;
+}
+
+#party img {
+    width: 100%;
+}
+
+#info {
+    padding: 5em;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ffe6e6, #ffffff);
+}
+
+
+#info button {
+    border: none;
+    background: #ff6666;
+    color: #ffffff;
+    padding: 0.8em;
+    border-radius: 5px;
+
+}
+
+#soon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em 0;
+    align-items: center;
+
+}
+
+#soon div {
+    padding: 2em;
+}
+
+#soon .img {
+    border: 3px solid #ff6666;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+#soon .img img {
+    width: 100%;
+}
+
+#holiday .img-container {
+    display: flex;
+}
+
+#holiday .img-container img {
+    width: 100%;
+}
+
+/* ----------GIFTS---------- */
+#gifts {
+    margin-top: 4em;
+}
+
+#gifts .img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#gifts .img img {
+    width: 100%;
+}
+
+
+/* ----------NEWLETTER---------- */
+#newsletter {
+    background-color: #fff2f2;
+    text-align: center;
+    padding: 2em 0;
+    width: 90%;
+    margin: 3em auto;
+    border-radius: 10px;
+}
+
+#newsletter p {
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+}
+
+#newsletter input,
+button {
+    padding: 1em;
+    border: none;
+    background: none;
+}
+
+#newsletter input {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#newsletter button {
+    background-color: #ff6666;
+    color: #ffffff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* ----------FOOTER----------  */
+footer {
+    background-color: #000;
+    color: #ffffff;
+    padding: 3em;
+}
+
+footer .address {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social img {
+    margin: 0 5px;
+}
+
+footer .copy {
+    display: flex;
+    justify-content: space-evenly;
+}
